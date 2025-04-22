@@ -41,11 +41,8 @@ public class PromptHandler
             Console.WriteLine(consoleOutput);
         }
 
-
         Console.WriteLine("");
         Console.WriteLine("Para encerrar a execução do programa, pressione \"ESC\" a qualquer momento.");
-
-
     }
 
     static int HandleSelectedKey(ConsoleKey consoleKey, int cursorIndex, int optionsLength)

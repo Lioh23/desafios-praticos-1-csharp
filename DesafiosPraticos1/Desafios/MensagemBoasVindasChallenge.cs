@@ -6,6 +6,10 @@ public class MensagemBoasVindasChallenge : IExecutableInterface
 {
     public void Execute()
     {
-        Console.WriteLine("TODO");
+        Console.WriteLine("Digite seu nome:");
+
+        string nomeUsuario = Console.ReadLine();
+
+        Console.WriteLine($"Olá, {nomeUsuario}! Seja muito bem-vindo!");
     }
 }

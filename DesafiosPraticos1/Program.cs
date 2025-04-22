@@ -35,6 +35,6 @@ class Program
             )
         };
 
-        PromptHandler.Execute("Selecione o desafio que deseja testar pressionando \"ENTER\"", promptOptions);
+        PromptHandler.Execute("Navegue utilizando as setas até o desafio que deseja testar e pressione \"ENTER\" para selecionar", promptOptions);
     }
 }

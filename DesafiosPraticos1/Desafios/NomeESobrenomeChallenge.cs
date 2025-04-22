@@ -6,6 +6,12 @@ public class NomeESobrenomeChallenge : IExecutableInterface
 {
     public void Execute()
     {
-        Console.WriteLine("TODO");
+        Console.WriteLine("Digite seu nome:");
+        string nome = Console.ReadLine();
+
+        Console.WriteLine("Digite seu sobrenome:");
+        string sobrenome = Console.ReadLine();
+
+        Console.WriteLine($"Nome completo: {nome} {sobrenome}");
     }
 }
